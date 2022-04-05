@@ -1,0 +1,17 @@
+{
+  "name": "nodestream",
+  "version": "1.0.0",
+  "description": "chat with typescript and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node chat-node.ts",
+    "client": "node chat-client.ts"
+  },
+  "author": "@dkone",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  }
+}
